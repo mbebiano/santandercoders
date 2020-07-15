@@ -1,0 +1,22 @@
+body{
+    /*background-color: pink;*/
+}
+html{
+    font-family: sans-serif;
+}
+h2{
+    color: #ffffff;
+    background-color: #30396d;
+    text-decoration: underline;
+    font-weight: initial;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #df0013;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+}
