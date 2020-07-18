@@ -1,0 +1,51 @@
+/* aplicar em multiplos elementos mesma formatação*/
+div,p{
+    background-color: green;
+}
+#div1{
+    background-color: yellow;
+}
+.fundoamarelo{
+    background-color: yellow;
+}
+
+/* seletor pai e filho (herança)*/
+div div {
+    background-color: red;
+}
+/*seletor procurar dentro da div e o id*/
+
+div.estadiv{
+    background-color: pink;
+}
+
+/*colocar imagem */
+
+.estadiv{
+    background-image: url('imagens/img01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.classe1{
+    background-color: blue;
+    width: 800px;
+    height:800px;
+    position: absolute;/* ele procura uma base para se posicionar o body e se posiciona no 0,0 ou toma como referencia onde está inserindo a tag absoluta mais proxima*/
+	top: 0px;
+	left: 0px;
+}
+.classe2{
+    background-color: green;
+    width: 400px;
+    height:400px;
+    position: relative;
+    top:20px;
+    left:30px;
+}
+.classe3{
+    background-color: yellow;
+    width: 200px;
+    height:200px;
+}
