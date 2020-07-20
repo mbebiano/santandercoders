@@ -1,0 +1,101 @@
+html{
+    background-color: rgb(175, 232, 255);
+}
+
+#header{
+    width: 960px;
+    height: 60px;
+    background-color: rgb(240,83,41);
+    margin-bottom: 80px;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+#grid{
+    width: 960px;
+    height: 600px;
+    background-color: rgb(226, 226, 221);
+    background-attachment: fixed;
+    margin-left: 180px;
+}
+.product{
+    width:300px;
+    height: 180px;
+    position: relative;
+    margin: 10px;
+    background-color: darkgreen;
+    float: left;
+}
+
+.productimg{
+    background-color: hotpink;
+    width: 300px;
+    height: 180px;
+    background-image: url(/images/unnamed.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.off30{
+
+    width: 80px;
+    height: 80px;
+    float: right;
+    background-image: url(/images/30off.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+}
+.chat{
+    clear: both;
+    background-color: rgb(240,83,41);
+    width: 100px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top:140px;
+    position: absolute;
+    color: floralwhite;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.name{
+    background-color:rgba(0, 0, 0, 0.47);
+    position: absolute;
+    display: inline-block;
+    padding-left: 71px;
+    padding-right: 71px;
+    margin-top: 90px;
+    color: lightcyan;
+}
+.name span{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#logo{
+    width: 130px;
+    height: 130px;
+    margin-left: 165px;
+    margin-top:-30px;
+
+    float: left;
+}
+#logo img{
+    width: 130px;
+    height: 130px;
+}
+#header li{
+    display: inline;
+}
+#header ul{
+    padding-top: 20px;
+}
+li a {
+    color: floralwhite;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 50px;
+    
+}

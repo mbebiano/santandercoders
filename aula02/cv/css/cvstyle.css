@@ -2,6 +2,15 @@ body{
     /*background-color: pink;*/
     
 }   
+strong{
+    background-color: green;
+}
+mark{
+    background-color: red;
+}
+em{
+    background-color: palevioletred;
+}
 html{
     /*font-family: sans-serif;*/
     font-family: 'Merriweather', serif;
@@ -45,4 +54,21 @@ button a{
     background-color: crimson;
     color: gold;
     font-size:22px;
+}
+input:focus{
+    background-color: red;
+}
+#comentarios{
+    resize: vertical;
+}
+a:hover{
+    background-color: gold;
+}
+#imagens img:hover{
+    border-radius: 20px;
+    filter: none;
+
+}
+#imagens img{
+    filter: blur(5px);
 }

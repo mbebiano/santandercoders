@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Aula 02 </title>
+</head>
+<body>
+    <!-- Tags Semânticas-->
+    <em> Itálico para SEO semântico </em>
+    <mark> Marcação amarela</mark>
+    <cite>Citação de um autor</cite>
+    <abbr title="Worl Wide Web"> WWW </abbr>
+
+    <form action="" method="post">
+
+        <h1>Formulário</h1>
+        <input type="text" name="usuario" value="Neu nome é" required> <!-- value o texto já vem preenchido com o valor/Required para validar campo obrigátorio -->
+        
+        <input type="radio" name="estado_civil" value="Casado">
+        <input type="radio" name="estado_civil" value="Solteiro">
+
+
+        <input type="checkbox" name="hobbies" value="Surf">
+        <input type="checkbox" name="hobbies" value="Música">
+        <br>
+        <label for="email">Email:</label><!-- for associa o label ao input e coloca o foco nele através de um id-->
+        <input id="email"type="email" placeholder="user@email.com" required>
+        <select name="país" id="">
+            <option value="Ar">Argentina</option>
+            <option value="Br">Brasil</option>
+            <option value="Co">Colômbia</option>
+        </select>
+        <br>
+        <br>
+        <select name="país" id="">
+            <optgroup label="América do Sul">
+                <option value="Ar">Argentina</option>
+                <option value="Br">Brasil</option>
+                <option value="Co">Colômbia</option>
+            </optgroup>
+            <optgroup label="América do Norte">
+                <option value="Us">Estados Unidos</option>
+                <option value="Can">Canadá</option>
+                <option value="Mex">México</option>
+            </optgroup>
+            
+        </select>
+        <br>
+        <textarea name="" id="" cols="50" rows="4" style="resize: none;"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button">Outra ação</button>
+    </form>
+</body>
+</html>

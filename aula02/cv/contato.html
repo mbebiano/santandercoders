@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cvstyle.css">
+    <title>Contato </title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Digite seu email" required>
+        <br>
+        <label for="assunto">Assunto da Mensagem:</label>
+        <select name="Assunto da mensagem" id="assunto">
+            <option value="assunto1">Assunto 1</option>
+            <option value="assunto2">Assunto 2</option>
+            <option value="assunto3">Assunto 3</option>
+            <option value="assunto4">Assunto 4</option>
+            <option value="assunto5">Assunto 5</option>
+        </select>
+        <br>
+        <label for="masculino">Masculino:</label>
+        <input type="radio" name="sexo" value="Masculino" id="masculino">
+        <label for="feminino">Feminino:</label>
+        <input type="radio" name="sexo" value="feminino" id="feminino">
+        <br>
+        
+        <ul>
+            <label for="passatempos">Passatempos:</label>
+            <li>Música:<input type="checkbox" name="passatempos" value="musica"></li>
+            <li>Futebol:<input type="checkbox" name="passatempos" value="futebol"></li>
+            <li>Ler:<input type="checkbox" name="passatempos" value="ler"></li>
+            <li>Correr:<input type="checkbox" name="passatempos" value="correr"></li>
+            <li>Praia:<input type="checkbox" name="passatempos" value="praia"></li>
+        </ul>
+        <textarea name="comentarios" id="comentarios" cols="20" rows="5"  required></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+</body>
+</html>
